@@ -1,8 +1,9 @@
 import AIOrb from "./AIOrb";
+import NeuralNetwork from "./NeuralNetwork";
 function Hero() {
   return (
-    <section className="flex flex-col items-center justify-center text-center min-h-[85vh] px-6">
-      
+    <section className="relative flex flex-col items-center justify-center text-center min-h-[85vh] px-6">
+      <NeuralNetwork />
       <AIOrb />
 
       <h1 className="text-6xl font-bold tracking-widest">
